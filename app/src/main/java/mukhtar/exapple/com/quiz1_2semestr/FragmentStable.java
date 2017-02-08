@@ -79,15 +79,15 @@ public class FragmentStable extends Fragment{
 
                         switch(type){
                             case 1:
-                                MainActivity.frA.add(editText.getText().toString()+tv.getText().toString());
+                                MainActivity.frA.add(editText.getText().toString()+" - "+tv.getText().toString());
                                 current.lv.setAdapter(new ArrayAdapter(getActivity(),android.R.layout.simple_list_item_1, MainActivity.frA));
                                 break;
                             case 2:
-                                MainActivity.frB.add(editText.getText().toString()+tv.getText().toString());
+                                MainActivity.frB.add(editText.getText().toString()+" - "+tv.getText().toString());
                                 current.lv.setAdapter(new ArrayAdapter(getActivity(),android.R.layout.simple_list_item_1, MainActivity.frB));
                                 break;
                             case 3:
-                                MainActivity.frC.add(editText.getText().toString()+tv.getText().toString());
+                                MainActivity.frC.add(editText.getText().toString()+" - "+tv.getText().toString());
                                 current.lv.setAdapter(new ArrayAdapter(getActivity(),android.R.layout.simple_list_item_1, MainActivity.frC));
                                 break;
 
